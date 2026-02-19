@@ -1,0 +1,61 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# -----------------------------
+# Virtual Environment
+# -----------------------------
+venv/
+env/
+ENV/
+.venv/
+
+# -----------------------------
+# Django
+# -----------------------------
+*.log
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Secret settings file (if you create one)
+.env
+
+# -----------------------------
+# Migrations (optional)
+# -----------------------------
+# Uncomment if you DON'T want migrations tracked
+# */migrations/
+# !*/migrations/__init__.py
+
+# -----------------------------
+# IDE / Editor
+# -----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -----------------------------
+# OS Files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Testing / Coverage
+# -----------------------------
+.coverage
+htmlcov/
+.pytest_cache/
+
+# -----------------------------
+# Build files
+# -----------------------------
+build/
+dist/
+*.egg-info/
